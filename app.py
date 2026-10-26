@@ -132,4 +132,4 @@ else:
 
                 if nuevo_estado != tck["estado"]:
                     st.session_state.tickets[idx]["estado"] = nuevo_estado
-                    notif = f"📢 **
+                    notif = f"📢 **Notificación de Mantenimiento:** El ticket `{tck['id']}` fue marcado como **{nuevo_estado.upper()}** por el equipo de reparación."
